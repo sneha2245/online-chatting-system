@@ -9,6 +9,8 @@
     __i.__ We have built a user friendly interface of a web application. It consists of a user interface and schema regarding user information.
 
     __ii__ The functionality of the web application are a user can use the application by easy sign up and chat with the persons who are available in the interface .
+    
+- __Images :__ 
 
 - __Features :__ Pinning option , searching a chat or users .
 
