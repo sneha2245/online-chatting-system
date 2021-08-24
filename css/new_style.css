@@ -1,0 +1,342 @@
+.gender{
+	width: 100px !important;
+}
+.scrollable{
+	scrollbar-width: thin;
+	overflow-y: auto;  
+	margin-right: -1px; 
+	overflow-x: hidden;  
+}
+.scrollable::-webkit-scrollbar {
+    width: 5px;
+}
+.scrollable::-webkit-scrollbar-track{
+	-webkit-box-shadow : inset 0 0 1px black;
+}
+.scrollable::-webkit-scrollbar-thumb{
+	-webkit-box-shadow : inset 0 0 4px black;
+}
+.echoDiv{
+	height:60px;
+	margin-top: 20px;	
+	width:400px;
+	font-size: 15px;
+}
+.userDiv{
+	height:60px;
+	width:400px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.div-echoDiv{
+	float:left;
+	margin-left: 10px;
+}
+.margin-left{
+	margin-left: 7px !important;
+}
+.margin{
+	margin-top: 10px;
+}
+.div-echoDiv1{
+	float:right;
+	margin-right: 20px;
+}
+.border-avaliable{
+	border-bottom:1px solid rgb(143,135,252);
+}
+.gender-space{
+	margin-left: -44px;
+    margin-top: 7px;
+}
+.message-in {
+    align-items: flex-start;
+	margin-bottom: 14px;
+}
+.vW7d1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.message-out {
+    align-items: flex-end;
+	margin-bottom: 14px;
+}
+.message-box{	
+	float: left;
+}
+.timer-box{	
+	font-size: 11px;
+	width: fit-content;
+	float: right;
+	margin-top:3px;
+	margin-left:10px;
+}
+.receiver{
+	border: 1px solid black;
+    max-width: 50%;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 4px 6px 0px 15px;
+}
+.sender{
+	border:1px solid black;
+	max-width:50%;
+    margin-right: 60px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+    font-size: 16px;
+	padding: 4px 6px 0px 15px;
+}
+.div-space{
+    height: 36px;
+}
+.echoChatDiv{	
+	background-color:white;
+	border-radius: .25rem;
+}
+.chatDiv{	
+    height: 600px;
+    margin: auto;
+    background-color: white;
+	z-index:999;
+}
+.textarea{
+    height: 40px;
+    width: -webkit-fill-available;
+    resize: none;
+	overflow:auto;
+	padding-left: 8px;
+    padding-top: 4px;
+	float:left;
+	border-radius: 20px;
+	padding-bottom: 5px;
+	border-color: rgb(12,157,165);
+	margin-left: 15px;
+	outline:none;
+}
+.button-send{
+	height: 40px;
+    width: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.chat-div{
+    border-radius:100%;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-top: 0px;
+	background-color:white;
+}
+.div-echoChatDiv{	
+	float:left;
+	margin-left:30px;
+	margin-top: 10px;
+    width: -webkit-fill-available;
+	font-size: 17px;
+}
+
+.name-send{
+    margin-right: 70px;
+    font-size: 12px;
+	width: fit-content;
+	margin-bottom: -7px;
+}
+.name-out{
+    margin-left: 70px;
+    font-size: 12px;
+	width: fit-content;
+	margin-bottom: -7px;
+}
+body{/*
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; */
+}
+
+::selection,input:hover{
+	outline:none; 
+}
+.chat-height{
+	height: 550px;
+	padding-top: 20px;
+	border-bottom: 1px solid red;
+}
+.emoji{
+	border:1px solid red;
+	height: 200px;
+    width: -webkit-fill-available;
+	display:none;
+	border-radius: .25rem;
+	border-color: rgb(12,157,165);
+}
+.close {
+	position: absolute;
+    top: 58%;
+    right: 4.1px;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+}
+.emoji-content{
+	width: -webkit-fill-available;
+	margin: 20px 20px 0px 20px;
+	border-radius: .25rem;
+	z-index: 1001;
+    position: absolute;
+}
+.final-emoji{
+	border: 1px solid red;
+    height: 35px;
+    width: 35px;
+    float: left;
+    margin: 1px;
+	margin-left:6px;
+}
+#image:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.button-sign-in{
+	height: 40px;
+	font-weight: 700;
+	background-color: springgreen;
+	color: white;
+	border-radius: 44px;
+	width:  -webkit-fill-available;
+	border-color: rgb(12,157,165);
+	outline: none;
+}
+.close_logIn{
+	position: absolute;
+    top: 30px;
+    right: 9.1px;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+}
+#serach:focus{
+	/*background-color:red;*/
+}
+.result{
+    position: absolute;        
+    z-index: 999;
+    box-sizing: border-box;
+    left: 0;
+}
+ p{
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+p:hover{
+    background: #f2f2f2;
+}
+#result{
+	max-height: 300px;
+	border:1px solid rgb(143,135,252);
+	background-color:white;
+	left:auto;
+	right:auto;
+	width:100%;
+	margin-top:10px;
+	box-shadow: 0 20px 17px rgba(0, 0, 0, 0.8);
+	display:none;
+	scrollbar-width: thin;
+	overflow-y: auto;  
+	margin-right: -1px; 
+	overflow-x: hidden; 
+	border-radius: .25rem;
+}
+#result::-webkit-scrollbar {
+	width: 5px;
+}
+#result::-webkit-scrollbar-track{
+	-webkit-box-shadow : inset 0 0 1px black;
+}
+#result::-webkit-scrollbar-thumb{
+	-webkit-box-shadow : inset 0 0 4px black;
+}
+#resultSearcChat{
+	height: 230px;
+	border:1px solid rgb(143,135,252);
+	background-color:white;
+	left:auto;
+	right:auto;
+	width: 100%;
+	margin-top:10px;
+	box-shadow: 0 20px 17px rgba(0, 0, 0, 0.8);
+	display:none;
+	scrollbar-width: thin;
+	overflow-y: auto;  
+	margin-right: -1px; 
+	overflow-x: hidden; 
+	/* display:block; */
+	border-radius: .25rem;
+}
+#resultSearcChat::-webkit-scrollbar {
+	width: 5px;
+}
+#resultSearcChat::-webkit-scrollbar-track{
+	-webkit-box-shadow : inset 0 0 1px black;
+}
+#resultSearcChat::-webkit-scrollbar-thumb{
+	-webkit-box-shadow : inset 0 0 4px black;
+}
+input{
+	outline:none;
+}
+.serach_chat{
+	height: -webkit-fill-available;
+    width:-webkit-fill-available;
+    margin-top: 5px;
+}
+.serach_chat_time{
+	height: -webkit-fill-available;
+    width: max-content;
+    margin-top: 15px;
+	font-size: 10px;
+}
+.forgot_password{
+	cursor: pointer;
+    left: auto;
+    right: auto;
+    margin-left: 100px;
+    /* margin: auto; */
+    color: #3f00ffbf;
+}
+#echoDiv:hover{
+	/* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8); */
+}
+#menu_select{
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+.seen{
+	position: absolute;
+	left: 89%;
+	top: 5px;
+	cursor: pointer;
+	width: fit-content;
+}
+#male::select{
+	
+	outline:none !important;
+}
+#bottomDiv{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 40px;
+    float: right;
+    position: absolute;
+    z-index: 10000;
+    left: auto;
+    right: 35px;
+    bottom: 80px;
+    display: none;
+    cursor: pointer;
+}
