@@ -11,14 +11,14 @@
     __ii__ The functionality of the web application are a user can use the application by easy sign up and chat with the persons who are available in the interface .
     
 - __Images :__  
-- 
+
     Images of the projects ar shown below    
 
-> 1. Image of index page
+1. > Image of index page
 
 <img src="https://github.com/sneha2245/online-chatting-system/blob/main/images/ss/1.png" alt="index page" title="Index page" width="100%" height="100%"/>
  
-> 2.  Image of login page
+2. > Image of login page
 
 <img src="https://github.com/sneha2245/online-chatting-system/blob/main/images/ss/4.png" alt="login page" title="Login page" width="100%" height="100%"/>
 
