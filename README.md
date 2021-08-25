@@ -94,7 +94,7 @@ __`4. Detabase Schema`__
 
 | id | uname | email | gender | phone | password |
 |----|-------|-------|--------|-------|----------|
-|1|subir|`subirghosh@gmail.com`|m|77......89|subir|
+|1|example|`example@gmail.com`|m|77......89|subir|
 |...|...|`...`|...|...|...|
 
 > __Chat Content Table :__  Where we store the chat of the users .
