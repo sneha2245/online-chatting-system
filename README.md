@@ -21,7 +21,7 @@ Description
 Images
 ------
 
-    Images of the projects ar shown below    
+    Images of the projects are shown below    
 
 > Image of index page
 
@@ -107,7 +107,7 @@ __`4. Detabase Schema`__
 Features
 --------
 
-Pinning option , searching a chat or users .
+Searching a chat or users .
 
 Team Members
 ------------
