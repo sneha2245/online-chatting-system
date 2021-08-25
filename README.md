@@ -1,7 +1,6 @@
 # Online Chatting System  <img src="https://img.shields.io/badge/project-completed-brightgreen"> 
 <img src="https://img.shields.io/badge/php-v7.2.18-brightgreen"> <img src="https://img.shields.io/badge/MySQL-v5.7.26-brightgreen"> <img src="https://img.shields.io/badge/HTML-v5-brightgreen"> <img src="https://img.shields.io/badge/CSS-brightgreen"> <img src="https://img.shields.io/badge/Jquery-v1.12.4-brightgreen"> <img src="https://img.shields.io/badge/Wamp Server-brightgreen">
 
-https://sneha2245.github.io/online-chatting-system/
 
 Duration
 --------
