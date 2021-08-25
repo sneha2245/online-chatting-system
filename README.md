@@ -46,7 +46,63 @@ Images
 Code
 ----
 
+__`1. HTML Code`__
 
+> We get `senderId` and `reciverId` by using : 
+
+```html
+<input id="sender" value="<?php echo(isset($_SESSION["userId"]))?$_SESSION["userId"]:'';?>" type="hidden" name="sender"/>
+
+<input id="receiver" value="<?php echo(isset($row["id"]))?$row["id"]:'';?>" type="hidden" name="receiver"/>
+```
+__`2. Java Script Code`__
+
+> We send the chat of the user in `chatcontentprocess.php` by suing __`$.ajax`__ function :
+
+```javascript
+$("#send").on('click', function (e) {		
+   $.ajax({
+      method : 'POST',
+      async : true,
+      url: 'chatcontentprocess.php', 
+      data: $('#frmData').serialize(),
+      beforeSend : function(){
+      $("#textarea").val("");
+         ...
+      }
+   });
+});
+```
+
+__`3. PHP Code`__
+
+> We insert all the field of tabel by using __`insert`__ query :
+
+```php
+if($_POST["content"]==null){			
+   return 0;				
+}else{
+   $text=$_POST["content"];
+   $contentQuery="insert into `chat_content` (`senderId`,`receiverId`,`content`,`current_time`) values ('".$sen."','".$rev."','".$text."',CURRENT_TIMESTAMP)";
+}
+$conn = mysqli_connect($servername, $username, $password, $dbName, $port);
+```
+
+__`4. Detabase Schema`__
+
+> __Users Table :__  Where we store the users information .
+
+| id | uname | email | gender | phone | password |
+|----|-------|-------|--------|-------|----------|
+|1|subir|`subirghosh@gmail.com`|m|77......89|subir|
+|...|...|`...`|...|...|...|
+
+> __Chat Content Table :__  Where we store the chat of the users .
+
+| id | senderId | reciverId | content | current_time |
+|----|----------|-----------|---------|--------------|
+|1|2|3|hi|2020-06-21 19:13:06|
+|...|...|...|...|...|
 
 Features
 --------
